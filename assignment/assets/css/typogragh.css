@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+.banner__head {
+   font-size: 50px;
+   font-weight: 700;
+   line-height: 64px;
+}
+
+.banner__subhead {
+   font-size: 26px;
+   font-weight: 400;
+}
+
+.row__title {
+   font-size: 28px;
+   font-weight: 500;
+}
+
+.row__describe {
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+}
+
+.heading {
+   text-align: center;
+   font-weight: 700;
+}

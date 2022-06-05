@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="description" content="The web site that shows food " />
+      <meta name="author" content="Sudy" />
+      <title>Web Design by Sudy</title>
+      <link rel="stylesheet" href="./assets/css/main.css" />
+      <link rel="icon" href="./assets/images/headlogo.png" />
+      <script src="./scripts/main.js" defer></script>
+   </head>
+   <body>
+      <header>
+         <img class="logo" src="./assets/images/logo.png" alt="logo" />
+         <nav>
+            <img
+               class="close"
+               src="./assets/images/close.png"
+               alt="close icon"
+            />
+            <ul class="header-links">
+               <li><a href="./work.html">work</a></li>
+               <li><a href="./about.html">about</a></li>
+               <li><a href="./contact.html">contact</a></li>
+            </ul>
+         </nav>
+         <img
+            class="menu"
+            src="./assets/images/nav_hamburg.png"
+            alt="hamburg menu"
+         />
+      </header>
+      <main>
+         <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12347741.84181763!2d175.00390869999998!3d-40.9248354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d2c200e17779687%3A0xb1d618e2756a4733!2sNew%20Zealand!5e0!3m2!1sen!2snz!4v1653802243516!5m2!1sen!2snz"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+         ></iframe>
+         <hr />
+      </main>
+      <div class="country-search">
+         <input type="text" data-item />
+         <button onclick="addItem()">add item</button>
+         <ul data-list>
+            <li>New Zealand</li>
+            <li>Singapore</li>
+            <li>Japan</li>
+         </ul>
+      </div>
+      <footer>
+         <div class="foot">
+            <div class="foot__container">
+               <img class="logo" src="./assets/images/logo.png" alt="logo" />
+               <p>New Market, 2010<br />NZ</p>
+               <ul class="foot__links">
+                  <li><a href="#">terms of service</a></li>
+                  <li><a href="#">privacy policy</a></li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
